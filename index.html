@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-dark-mode"
+<!-- ENCABEZADO -->
+    <header>
+        <div class="wrapper">
+            <div class="header-grid">
+                <div>
+                <h1>  Dashboard: Redes sociales </h1> 
+                <p class="header-total">
+                      Total de seguidores: 3.271 
+                </p>   
+                </div>
+                <div class="dark-mode">
+                    <p class="dark-mode-title">
+                        Dark Mode
+                    </p>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label class="switch" for="checkbox">
+                        
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- SECCION TARJETAS -->
+<section class="top-cards">
+    <div class="wrapper">     
+        <div class="grid">
+<!-- FACEBOOK CARD -->
+     <article class="card facebook">
+                <p class="card-title">
+                <img src="images/icon-facebook.svg" alt="">
+                    David Cicconi
+                </p>
+                <p class="card-followers">
+                <span class="followers-number"> 2.356 </span>
+                <span class="followers-title"> Followers </span>    
+                </p>
+                <p class="card-today">
+                    <img src="images/icon-up.svg">
+                Today: 52
+                </p>
+         </article>
+<!-- TWITTER CARD -->
+    <article class="card twitter">
+        <p class="card-title">
+         <img src="images/icon-twitter.svg" alt="">
+            @DavisCicconi
+        </p>
+    <p class="card-followers">
+    <span class="followers-number"> 464 </span>
+    <span class="followers-title"> Followers </span>    
+    </p>
+    <p class="card-today">
+        <img src="images/icon-up.svg">
+     Today: 30
+    </p>
+        </article>
+
+<!-- INSTAGRAM CARD -->
+    <article class="card instagram">
+        <p class="card-title">
+         <img src="images/icon-instagram.svg" alt="">
+            @davisgates7
+        </p>
+        <p class="card-followers">
+        <span class="followers-number"> 451 </span>
+        <span class="followers-title"> Followers </span>    
+        </p>
+        <p class="card-today">
+            <img src="images/icon-up.svg" alt="">
+        Today: 4
+        </p>
+        </article>
+        </div>
+    </div>
+</section>
+
+<!-- OVERVIEW -->
+<section class="overview">
+    <div class="wrapper">
+        <h2>Overview - Today</h2>
+    <div class="grid">
+        <div class="card-small">
+            <p class="card-small-views">Page Views</p>
+            <p class="card-small-icon">
+                <img src="images/icon-facebook.svg" alt="">
+            </p>
+            <p class="card-small-number">87</p>
+            <p class="card-small-percent">
+               <span>
+                <img src="images/icon-up.svg" alt="">
+                3%
+               </span>
+            </p>
+        </div>
+
+        <div class="card-small">
+            <p class="card-small-views">Likes</p>
+            <p class="card-small-icon">
+                <img src="images/icon-facebook.svg" alt="">
+            </p>
+            <p class="card-small-number">20</p>
+            <p class="card-small-percent is-danger">
+               <span>
+                <img src="images/icon-down.svg" alt="">
+                2%
+               </span>
+            </p>
+        </div>
+        <div class="card-small">
+            <p class="card-small-views">Likes</p>
+            <p class="card-small-icon">
+                <img src="images/icon-instagram.svg" alt="">
+            </p>
+            <p class="card-small-number">120</p>
+            <p class="card-small-percent">
+               <span>
+                <img src="images/icon-up.svg" alt="">
+                52%
+               </span>
+            </p>
+        </div>
+        <div class="card-small">
+            <p class="card-small-views">Profile Views</p>
+            <p class="card-small-icon">
+                <img src="images/icon-instagram.svg" alt="">
+            </p>
+            <p class="card-small-number">20</p>
+            <p class="card-small-percent">
+               <span>
+                <img src="images/icon-up.svg" alt="">
+                22%
+               </span>
+            </p>
+        </div>
+        <div class="card-small">
+            <p class="card-small-views">Retweets</p>
+            <p class="card-small-icon">
+                <img src="images/icon-twitter.svg" alt="">
+            </p>
+            <p class="card-small-number">15</p>
+            <p class="card-small-percent">
+               <span>
+                <img src="images/icon-up.svg" alt="">
+                85%
+               </span>
+            </p>
+        </div>
+        <div class="card-small">
+            <p class="card-small-views">Likes</p>
+            <p class="card-small-icon">
+                <img src="images/icon-twitter.svg" alt="">
+            </p>
+            <p class="card-small-number">7</p>
+            <p class="card-small-percent is-danger">
+               <span>
+                <img src="images/icon-down.svg" alt="">
+                30%
+               </span>
+            </p>
+        </div>
+        </div>  
+    </div>
+
+</section> 
+
+<script src="app.js"></script>
+</body>
+
+</html>
